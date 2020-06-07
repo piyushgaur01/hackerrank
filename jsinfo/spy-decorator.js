@@ -1,3 +1,5 @@
+// Decorators and forwarding, call/apply
+
 // Spy decorator
 // importance: 5
 // Create a decorator spy(func) that should return a wrapper that saves all calls to function in its calls property.
@@ -12,7 +14,7 @@ function spy(fn){
   function wrapper(...args){
     wrapper.calls.push(args);
     return function(){
-      return work.call(this, args);
+      return fn.call(this, args);
     }
   }
   wrapper.calls = [];
