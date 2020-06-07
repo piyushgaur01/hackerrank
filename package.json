@@ -1,7 +1,7 @@
 {
   "name": "hackerrank",
   "version": "1.0.0",
-  "description": "Solutions to hacker rank questions",
+  "description": "Solutions to some javascript questions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/piyushgaur01/hackerrank.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Piyush Gaur",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/piyushgaur01/hackerrank/issues"

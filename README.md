@@ -1,2 +1,2 @@
 # hackerrank
-Solutions to hacker rank questions
+Solutions to some javascript questions
